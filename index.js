@@ -8,8 +8,8 @@ var generateAddress = function(options) {
   return { secret: secret, address: address };
 }
 
-var mnemonicToRippleAddress = module.exports = function(mnemonic){
-    var masterseed = bip39.mnemonicToSeed(mnemonic);
+var mnemonicToRippleAddress = module.exports = function(mnemonic, password){
+    var masterseed = bip39.mnemonicToSeed(mnemonic, password);
     return rippleAddress = generateAddress({ entropy: masterseed })
 }
 
