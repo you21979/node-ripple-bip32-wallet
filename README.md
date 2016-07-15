@@ -1,1 +1,1 @@
-# node-ripple-bip32-wallet
+# node-ripple-wallet
