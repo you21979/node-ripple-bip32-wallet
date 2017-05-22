@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "private": false,
   "dependencies": {
-    "ripple-keypairs" : "",
-    "bip39" : ""
+    "ripple-keypairs" : "0.10.*",
+    "bip39" : "2.3.*"
   },
   "readmeFilename": "README.md",
   "description": "",
